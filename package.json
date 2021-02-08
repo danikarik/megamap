@@ -6,7 +6,7 @@
   "author": "https://github.com/danikarik",
   "license": "MIT",
   "main": "main.js",
-  "repository": "",
+  "repository": "https://github.com/danikarik/megamap.git",
   "scripts": {
     "start": "electron ."
   },
