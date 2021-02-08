@@ -5,12 +5,14 @@
   "description": "Interactive map for Mega's kiosks",
   "author": "https://github.com/danikarik",
   "license": "MIT",
-  "main": "main.js",
   "repository": "https://github.com/danikarik/megamap.git",
   "scripts": {
-    "start": "electron ."
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "yarn build && electron ./dist/main.js"
   },
   "devDependencies": {
-    "electron": "^11.2.3"
+    "electron": "^11.2.3",
+    "typescript": "^4.1.3"
   }
 }
